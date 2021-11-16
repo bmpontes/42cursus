@@ -3,9 +3,7 @@
 
 int	main(void)
 {
-	if (ft_isdigit('2') == 1)
-		printf("É\n");
-	else
-		printf("Não É\n");
+        printf("%s\n", ft_strjoin("teste", "teste"));
 	return (0);
 }
+

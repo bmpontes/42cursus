@@ -17,8 +17,6 @@ SRC	=	ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 
 OBJ	=	$(SRC:.c=.o)
 
-
-
 all:		$(NAME)
 
 $(NAME):	$(OBJ)
@@ -30,5 +28,6 @@ clean:
 
 fclean:	clean
 			$(RM) $(NAME)
+			$(RM) a.out
 
 re:	fclean all
